@@ -88,4 +88,7 @@ ul {
   transform: translateX(-10px);
   opacity: 0;
 }
+.slide-up-move {
+  transition: transform 0.5s ease-out;
+}
 </style>
