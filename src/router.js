@@ -39,6 +39,12 @@ export default new Router({
       // which is lazy-loaded when the route is visited.
       component: () =>
         import(/* webpackChunkName: "about" */ './views/Drawer.vue')
+    },
+    {
+      path: '/cards',
+      name: 'cards',
+      component: () =>
+        import(/* webpackChunkName: "list" */ './views/Cards.vue')
     }
   ]
 })

@@ -41,7 +41,8 @@ export default {
       Velocity(
         el, // element to animate
         { opacity: 1, width: '12em' }, // new style rules we want to apply to our element (el)
-        { duration: 1000, easing: 'easeOutCubic', complete: done } // define how transition happens and complete it
+        // { duration: 1000, easing: 'easeOutCubic', complete: done } // define how transition happens and complete it
+        { duration: 1000, easing: [60, 10], complete: done } // define how transition happens and complete it
       )
     },
     leave(el, done) {
