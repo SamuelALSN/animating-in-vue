@@ -27,7 +27,10 @@ export default {
       scale: 0,
       y: 200,
       ease: 'power1',
-      stagger: 0.1
+      stagger: { // This is the delay or amount of time to wait before staggering in the next card
+        each: 0.1,
+        from: 'edges'
+      }
     })
   }
 }
