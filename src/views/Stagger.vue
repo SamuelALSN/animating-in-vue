@@ -15,7 +15,6 @@ export default {
         { id: 8748 },
         { id: 4919 },
         { id: 5527 },
-        { id: 9428 },
         { id: 7103 }
       ]
     }
@@ -27,7 +26,8 @@ export default {
       scale: 0,
       y: 200,
       ease: 'power1',
-      stagger: { // This is the delay or amount of time to wait before staggering in the next card
+      stagger: {
+        // This is the delay or amount of time to wait before staggering in the next card
         each: 0.1,
         from: 'edges'
       }
